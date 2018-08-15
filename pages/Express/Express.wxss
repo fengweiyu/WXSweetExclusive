@@ -1,0 +1,4 @@
+/* pages/Express/Express.wxss */
+.ExpressView {
+  background-image: url('../res/image/1.jpg');
+}

@@ -55,7 +55,9 @@ Page({
     if (e.type == "tap")
     {
       console.log("enter main page");
-
+      wx.navigateTo({
+        url: '../Express/Express',
+      })
     }
   }
 })
