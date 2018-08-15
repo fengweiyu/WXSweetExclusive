@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imageUrl: "https://github.com/fengweiyu/WXSweetExclusive/blob/master/res/image/1.jpg"
+
   },
 
   /**

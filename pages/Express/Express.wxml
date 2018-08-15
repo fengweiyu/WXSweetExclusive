@@ -1,5 +1,6 @@
 <!--pages/Express/Express.wxml-->
 <view class="ExpressView">
-<image class="image_frame" src="https://github.com/fengweiyu/WXSweetExclusive/blob/master/res/image/22.jpg" mode="aspectFill"> </image>
+  <!--image  style="width: 500px; height: 500px; " src="http://i1.bvimg.com/658224/141f84c37c2e3d59.jpg" mode="aspectFill"> 
+  </image-->
   <button class="agree" bindtap="agree"> 同意 </button>
 </view>
