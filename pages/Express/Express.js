@@ -5,25 +5,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-    agreeStyle: "margin-top: 500px; margin-left: 20px;",
-    unagreeStyle: "margin-top: 500px; margin-left: 260px;",
+    agreeStyle: "margin-top: 280px; margin-left: 20px;",
+    unagreeStyle: "margin-top: 280px; margin-left: 260px;",
   },
   //事件处理函数
   agree: function (e) {
     if (e.type == "tap") {
       console.log("enter love page");
+      wx.navigateTo({
+        url: '../Congratulation/Congratulation',
+      })
     }
   },
   unagree: function (e) {
     if (e.type == "tap") 
     {
-      var top = 500;
+      var top = 280;
       var left = 20+100;
 1
-      while ((left <= 120) && (top >= 455 && top <= 545))
+      while ((left <= 120) && (top >= 280-45 && top <= 280+45))
       {//同意按钮范围内的不允许
-        left=Math.random() * 260 + 1;  
-        top = Math.random() * 500 + 1;
+        left = Math.random() * 230 + 1;  
+        top = Math.random() * 400 + 1;
       }
       console.log("margin-top: " + top + "px; margin-left: " + left + "px;");
       this.setData({

@@ -10,7 +10,7 @@
 page { 
   overflow:hidden; 
   position:fixed; 
-  background-image:url('http://i1.bvimg.com/658224/141f84c37c2e3d59.jpg'); 
+  background-image:url('http://i4.bvimg.com/658224/8edb8cc1af7d1984.jpg'); 
   margin: 0px; 
   /*下面的是关键的设置100%显示*/ 
   background-size: 100% 100%; 

@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/Express/Express"
+    "pages/Express/Express",
+    "pages/Congratulation/Congratulation"
   ],
   "window": {
     "backgroundTextStyle": "light",
