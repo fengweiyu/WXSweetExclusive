@@ -1,4 +1,4 @@
 <!--pages/Congratulation/Congratulation.wxml-->
 <block wx:if="{{TimeOut}}">
-<image class="iamgesrc" src='../../res/image/8.gif' mode="scaleToFill"></image>
+<image class="iamgesrc" src='../../../res/image/8.gif' mode="scaleToFill"></image>
 </block>

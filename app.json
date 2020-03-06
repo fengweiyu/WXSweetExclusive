@@ -1,9 +1,16 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/Express/Express",
-    "pages/Congratulation/Congratulation"
+    "page/main/index/index",
+    "page/main/logs/logs",
+    "page/main/Express/Express"
+  ],
+  "subPackages": [
+    {
+      "root": "page/component",
+      "pages": [
+        "Congratulation/Congratulation"
+      ] 
+    }
   ],
   "window": {
     "backgroundTextStyle": "light",
