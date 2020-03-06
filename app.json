@@ -10,5 +10,6 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "甜甜专属",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
