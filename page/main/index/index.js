@@ -56,7 +56,7 @@ Page({
     {
       console.log("enter main page");
       wx.navigateTo({
-        url: '../Express/Express',
+        url: '../../component/Express/Express',
       })
     }
   }

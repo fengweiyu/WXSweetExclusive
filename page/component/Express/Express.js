@@ -13,7 +13,7 @@ Page({
     if (e.type == "tap") {
       console.log("enter love page");
       wx.navigateTo({
-        url: '../../component/Congratulation/Congratulation',
+        url: '../Congratulation/Congratulation',
       })
     }
   },

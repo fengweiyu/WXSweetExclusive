@@ -1,13 +1,13 @@
 {
   "pages": [
     "page/main/index/index",
-    "page/main/logs/logs",
-    "page/main/Express/Express"
+    "page/main/logs/logs"
   ],
   "subPackages": [
     {
       "root": "page/component",
       "pages": [
+        "Express/Express",
         "Congratulation/Congratulation"
       ] 
     }
